@@ -1,5 +1,7 @@
 # rk3588
 
+![npu schematic](./npu_schematic.png)
+
 <!-- **Goal:** Rockchip RK3588 RKNN NPU backend passing all ops tests in [tinygrad](https://github.com/tinygrad/tinygrad) -->
 
 ## NPU
@@ -13,6 +15,8 @@ up to 6TOPs
     - Each of the three NPU cores has its own 384 kilobytes of ultra-fast SRAM scratchpad.
     - On-chip buffers let the NPU keep weights, activations, or intermediate results very close to the compute units, minimizing costly off-chip memory traffic.
 - One isolated voltage domain to support DVFS
+- The IP is closely based on NVDLA.
+- RKNPU2 NPU software stack
 
 ## Documents
 
@@ -21,6 +25,13 @@ up to 6TOPs
 - [Technical Reference Manual (TRM)](https://www.scs.stanford.edu/~zyedidia/docs/rockchip/rk3588_part1.pdf)
 - [Reverse Engineering](https://github.com/mtx512/rk3588-npu/tree/main)
 - [Reverse Engineering 2](https://jas-hacks.blogspot.com/2024/02/rk3588-reverse-engineering-rknn.html)
+- [Notes](https://gitlab.collabora.com/hardware-enablement/rockchip-3588/notes-for-rockchip-3588)
+- [NPU Driver](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/29698)
+- [rknn-llm](https://github.com/airockchip/rknn-llm)
+- [r/RockchipNPU](https://www.reddit.com/r/RockchipNPU/wiki/index/)
+- [Rockchip_User_Guide_RKNN_Toolkit_Visualization_V1.7.5_EN.pdf](https://github.com/airockchip/rknn-toolkit/blob/master/doc/Rockchip_User_Guide_RKNN_Toolkit_Visualization_V1.7.5_EN.pdf)
+- [ggml NPU discussion](https://github.com/ggml-org/llama.cpp/issues/722)
+- [Rockchip kernel driver](https://github.com/armbian/linux-rockchip)
 
 ## Twitter
 
