@@ -32,6 +32,7 @@ up to 6TOPs
 - [Rockchip_User_Guide_RKNN_Toolkit_Visualization_V1.7.5_EN.pdf](https://github.com/airockchip/rknn-toolkit/blob/master/doc/Rockchip_User_Guide_RKNN_Toolkit_Visualization_V1.7.5_EN.pdf)
 - [ggml NPU discussion](https://github.com/ggml-org/llama.cpp/issues/722)
 - [Rockchip kernel driver](https://github.com/armbian/linux-rockchip)
+- [Using NPU with RKNN](https://wiki.t-firefly.com/en/ROC-RK3588S-PC/usage_npu.html)
 
 ## Twitter
 
