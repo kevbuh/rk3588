@@ -17,6 +17,8 @@ up to 6TOPs
 - One isolated voltage domain to support DVFS
 - The IP is closely based on NVDLA.
 - RKNPU2 NPU software stack
+- Supported Ops
+    - Conv layers, linear layers, elementwise ops, pooling ops
 
 ## Documents
 
