@@ -35,6 +35,7 @@ up to 6TOPs
 - [ggml NPU discussion](https://github.com/ggml-org/llama.cpp/issues/722)
 - [Rockchip kernel driver](https://github.com/armbian/linux-rockchip)
 - [Using NPU with RKNN](https://wiki.t-firefly.com/en/ROC-RK3588S-PC/usage_npu.html)
+- [Custom userspace driver][https://blog.tomeuvizoso.net/2024/03/rockchip-npu-update-2-mobilenetv1-is.html]
 
 ## Twitter
 
